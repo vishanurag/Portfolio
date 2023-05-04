@@ -1,0 +1,116 @@
+
+/* -------------------------STARTS---------------------- */
+/*/////////// WELCOME ----- POP--UP------ANIMATIONS//////////// */
+
+
+@keyframes show {
+    0%{
+
+        margin-top: 0PX;
+        opacity: 0;
+    }
+    20%{
+        /* opacity: 1; */
+        margin-top: 0PX;
+    }
+    80%{
+        margin-top: 0PX;
+    }
+    100%{
+        opacity: 1;
+        margin-top: -5PX;
+    }
+}
+
+@keyframes hideNavBar {
+    90%{
+        opacity: .3;
+    }
+    100% { 
+        opacity: 1;
+    }
+}
+
+@keyframes scrollUp {
+    from {
+        height: 100vh;
+    }
+    to {
+    
+        opacity: 0;
+        height: 0vh;
+    
+    }
+}
+
+
+
+/*/////////// WELCOME ----- POP--UP------ANIMATIONS//////////// */
+/* -------------------------ENDS---------------------- */
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+
+/* -------------------------STARTS---------------------- */
+/*/////////// ANURAG's ----- IMAGE's------ANIMATIONS//////////// */
+
+
+
+@keyframes photoAnimate {
+    to{
+        width: 195px;
+        border: 5px solid #377997;
+    }
+}
+@keyframes photoActive {
+    to{
+        width: 190px;
+        
+    }
+}
+
+
+
+
+
+/*/////////// ANURAG's ----- IMAGE's------ANIMATIONS//////////// */
+/* -------------------------ENDS---------------------- */
+
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+
+
+
+/* -------------------------STARTS---------------------- */
+/*/////////// ANURAG's ----- PROJECT's------ANIMATIONS//////////// */
+
+
+
+@keyframes projectBoxAnimate {
+    to{
+        margin-top: -20px;
+        border-color: #377997;
+    }
+}
+
+
+
+
+/*/////////// ANURAG's ----- PROJECT's------ANIMATIONS//////////// */
+/* -------------------------ENDS---------------------- */
