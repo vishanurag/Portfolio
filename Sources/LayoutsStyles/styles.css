@@ -9,12 +9,13 @@
 body {
     position: relative;
     background-color: #0a192f ;
-    width: 100vw;
-    overflow-x: hidden;
+    width: 100vw !important;
+    overflow-x: hidden !important;
 }
 
-
-
+.partationSlab {
+    height: 100px;
+}
 
 
 /* ----------------------------------------MAIN--CONTENT--STARTS------------------------------------- */
@@ -22,7 +23,6 @@ body {
 
 
 .mainContent {
-
     width: 100vw;
     height: 80vh;
     display: grid;
@@ -41,10 +41,8 @@ body {
     position: absolute;
     left: 0;
     width: 100vw !important;
-
     top: 20vh;
     text-align: center;
-
     font-size: 1em;
     color: #59c2e6;
     font-family: "Fira Code";
@@ -56,7 +54,6 @@ body {
     margin-left: 20vw;
     display: flex;
     align-items: center;
-
 }
 
 .iconArrowDown {
@@ -70,12 +67,9 @@ body {
     visibility: hidden;
 }
 
-
-
 .whatIDO {
     font-size: 200%;
     text-shadow: -2px 5px 0px #233554, -2px 5px 5px aliceblue;
-
     font-weight: bold;
     color: #8892b0;
     opacity: 0.05;
@@ -96,28 +90,39 @@ body {
     color: aliceblue ;
     padding: 30px 30px;
     text-shadow: none;
-
     width: 80vw !important;
     text-align: left;
 }
-
-
-
-
-
 
 .nameBox {
 
     color: aliceblue;
     font-weight: 700;
-    border-right: 5px solid transparent;
+    border-right: 1px solid transparent;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    overflow-x: hidden;
     font-size: 1.8em;
     display: flex;
     align-items: center;
     animation: textAnimate .31s infinite, blink .3s 4s forwards infinite;
+}
+
+.nameBox::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.207);
+    position: absolute;
+    z-index: -2 !important;
+    transform: translateX(-150%);
+    transition: 1s ease;
+    border-radius: 5px;
+}
+.nameBox:is(:hover)::before {
+    transform: translateX(-1%) !important;
+    opacity: 0.5;
 }
 
 .myResumeButtonLink {
@@ -149,7 +154,7 @@ body {
     background-color: #382c57;
     background-image: linear-gradient(transparent, #0a192f, black);
     opacity: 0.9;
-
+    z-index: 1;
     display: grid;
     place-content: center;
     align-items: center;
@@ -163,9 +168,6 @@ body {
     margin-bottom: 10vh;
     text-align: center;
 }
-
-
-
 
 
 .iAM {
@@ -193,17 +195,22 @@ body {
 
 
 .navBarBlock {
-    
     background-color: #1a2e4c !important;
-    
-    background-image: linear-gradient(transparent ,rgb(99, 75, 157));
-    opacity: .99;
+    background-image: linear-gradient(rgb(99, 75, 157), rgb(126, 129, 177));
+    opacity: 1 !important;
+    z-index: 2 !important;
+}
+.navBarBlock div ul li a{
+  
+    z-index: 5 !important;
 }
 
 .creator {
     padding-bottom: 50px ;
-    
     font-size: 1em !important;
+}
+.creator:hover {
+    font-size: 1.2em !important;
 }
 
 .navCloseButton {
@@ -218,7 +225,6 @@ body {
     align-items: center;
     justify-content: center;
     column-gap: 5vw;
-    
     padding-right: 50px !important;
     
 }
@@ -243,20 +249,16 @@ body {
 }
 
 .navItemsUnderlineHome{
-    /* padding-top: 5px !important; */
     width: 4px;
     height: 4px;
     border-radius: 2px !important;
     background-color: aliceblue;
-    /* animation: underlineAnimaate 2s forwards; */
 }
 .navItemsUnderline{
-    /* padding-top: 5px !important; */
     width: 4px;
     height: 4px;
     border-radius: 2px !important;
     background-color: transparent;
-    /* animation: underlineAnimaate 2s forwards; */
 }
 
 .darkModeNAVBarItemsHoverClass:hover{
@@ -264,11 +266,9 @@ body {
 }
 
 .navItems a:hover~.navItemsUnderlineHome{
-   
     animation: underlineAnimaate .52s forwards;
 }
 .navItems a:hover~.navItemsUnderline{
-   
     animation: underlineAnimaate .52s forwards;
 }
 @keyframes underlineAnimaate {
@@ -277,7 +277,6 @@ body {
          width: 100%;
          height: 3px;
          background-color: rgb(116, 116, 214);
-
      }
 }
 
@@ -296,7 +295,6 @@ body {
     cursor: pointer;
 }
 .modeButtonOnNAV:hover {
-    
     color: aliceblue;
     background-color: #1a2e4c !important;
 }
@@ -350,43 +348,32 @@ body {
 }
 
 .contactsIcons a {
-
     display: grid;
     place-content: center;
     border-radius: 50%;
     color: aliceblue !important;
-
 }
-
-
+.contactsIcons a svg:hover {
+    width: 120%;
+    height: 120%;
+}
 
 .simpleVerticalLine {
     height: 200px;
     width: 2px;
-
     background-color: aliceblue;
 }
 
 
-
 /* ----------------------------------------MAIN--CONTENT--ENDS------------------------------------- */
 /* ----------------------------------------MAIN--CONTENT--ENDS------------------------------------- */
-
-
-
-
-
-
 
 
 /* ----------------------------ABOUT--ME--(ANURAG)---SECTION------------------------------------- */
 
 .aboutMe {
-    /* overflow: hidden; */
-    position: absolute;
     top: 100vw !important;
     width: 100vw;
-    /* background-color: #59c2e6; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,24 +442,15 @@ body {
 
 .myPhoto:active {
     animation: photoActive 0.2s forwards;
-    /* filter: none; */
 }
 
 /* ----------------------------ABOUT--ME--(ANURAG)---SECTION------------------------------------- */
 
 
-
-
-
-
-
 /* ----------------------------PROJECTS---SECTION------------------------------------- */
 
 .myProjects {
-    position: absolute;
-    top: 285vh;
     width: 100vw;
-    height: 100vh !important;
 }
 
 
@@ -482,19 +460,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    column-gap: 50px !important;
-    row-gap: 50px !important;
-
-}
-
-.projectRows {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px !important;
-    row-gap: 50px !important;
     flex-wrap: wrap;
+    column-gap: 50px !important;
+    row-gap: 50px !important;
+
 }
 
 .projectBoxes {
@@ -512,8 +481,6 @@ body {
 .projectBoxes:hover {
     animation: projectBoxAnimate .1s forwards;
 }
-
-
 
 
 .projectNavBar {
@@ -556,24 +523,19 @@ body {
 .projectBoxFooter {
     color: #f7f7f7;
     position: absolute;
-    ;
     font-size: 75%;
     font-weight: 500;
     bottom: 30px !important;
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px !important;
+    word-spacing: 5px;
 }
 
 /* ----------------------------PROJECTS---SECTION------------------------------------- */
 
 
-
-
-
 /* ----------------------------FOOTER---SECTION------------------------------------- */
-
-
 
 .websiteFooterForm {
     margin-top: 50px;
@@ -608,6 +570,10 @@ body {
     padding: 5px !important;
     border: 2px solid transparent;
     border-radius: 15px !important;
+    color: aliceblue;
+}
+
+input::placeholder, textarea::placeholder {
     color: aliceblue;
 }
 

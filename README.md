@@ -3,4 +3,34 @@
 
 - Live Link : https://vcma.rf.gd/Portfolio
 
-This is my personal portfolio web project.
+## _This is my personal portfolio web project._
+
+[![Author](https://ashstudy.000webhostapp.com/anurag/Assets/icons/faviconA.ico)](https://vcma.rf.gd/Portfolio) Created by: [Anurag Vishwakarma](https://github.com/vishanurag)
+
+
+
+## Features
+
+- I have tried my best to make this Portfolio Webpage responsive.
+- This website has total 3 colour modes those can be choosen by the user and the colour modes are also selected randomdly.
+- It has a lot of animations and you will love it.
+- It shows my all projects dynamically using AJAX.
+
+## Tech Used
+
+I have used these following tech for building the cityWebCast WebApp:
+
+- [HTMl]() - HTML used for the structuring of webpage.
+- [CSS]() - Used for styling the website.
+- [Javascript]() - Used JS to make things functional.
+- [Bootstrap]() - great UI boilerplate for modern web apps.
+- [AJAX]() - Used AJAX for getting the projects datails.
+
+
+
+## Installation
+In-order to use my portfolio in your local machine, you need to follow these steps:
+
+- Just install & run the `xampp` in your machine.
+- Put this `Portfolio` folder inside the `htdocs` folder in `xampp` folder.
+- And yea you are good to go. Now, open your browser and type this URL `localhost/Portfolio/`.  

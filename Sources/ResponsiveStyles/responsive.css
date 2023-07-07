@@ -4,6 +4,9 @@
     .creator {
         font-size: 110% !important;
     }
+    .responsiveNavReplaced {
+        display: none !important;
+    }
 
     .subHelloIAM {
         margin-left: 12vw !important;
@@ -12,12 +15,13 @@
     .animationBox {
 
         position: absolute;
-        display: grid;
+        display: flex;
         left: 0;
-        place-items: center;
+        padding-left: 12vw;
+        /* place-items: center; */
         align-items: center;
         width: 100vw;
-        text-align: center;
+        /* text-align: center; */
 
         top: 28vh !important;
         text-align: center;
@@ -28,7 +32,7 @@
         text-align: center;
 
         width: max-content;
-        font-size: 2.5em !important;
+        font-size: 4.5em !important;
     }
 
     .whatIDO {
@@ -52,7 +56,7 @@
     }
 
     .websiteFooter {
-        position: absolute;
+        /* position: absolute; */
         top: 400vh;
         width: 100%;
 
@@ -161,20 +165,6 @@
     }
 
 
-    .aboutMe {
-
-        top: 120vh !important;
-    }
-
-    .myProjects {
-        top: 300vh !important;
-    }
-
-    .websiteFooter {
-        position: absolute;
-        top: 650vh;
-
-    }
 }
 
 /* -----------------MEDIUM---DISPLAYS---MOBILES---------------- */
@@ -231,21 +221,6 @@
         font-weight: 300;
     }
 
-
-    .aboutMe {
-
-        top: 120vh !important;
-    }
-
-    .myProjects {
-        top: 250vh !important;
-    }
-
-    .websiteFooter {
-        position: absolute;
-        top: 500vh;
-
-    }
 }
 
 /* -----------------LARGE---DISPLAYS---MOBILES---------------- */
@@ -292,21 +267,6 @@
         font-weight: 300;
     }
 
-
-    .aboutMe {
-
-        top: 110vh !important;
-    }
-
-    .myProjects {
-        top: 210vh !important;
-    }
-
-    .websiteFooter {
-        position: absolute;
-        top: 400vh;
-
-    }
 }
 
 /* -----------------MEDIUM---DISPLAYS---TABLETS---------------- */
@@ -320,14 +280,6 @@
 
 /* ------------------------------EXTRA----QUERIES------------------------------------ */
 
-@media only screen and (min-height: 1000px) and (min-width: 501px) and (max-width: 800px) {
-    .websiteFooter {
-        position: absolute;
-        top: 350vh;
-
-    }
-}
-
 
 @media only screen and (min-height: 1000px) and (min-width: 801px) and (max-width: 1000px) {
     .creator {
@@ -335,7 +287,6 @@
     }
 
     .animationBox {
-
         position: absolute;
         display: grid;
         left: 0;
@@ -343,15 +294,12 @@
         align-items: center;
         width: 100vw;
         text-align: center;
-
         top: 30vh !important;
         text-align: center;
-
     }
 
     .nameBox {
         text-align: center;
-
         width: max-content;
         font-size: 2.1em !important;
     }
@@ -366,23 +314,6 @@
         font-size: 75%;
         font-weight: 300;
     }
-
-
-    .aboutMe {
-
-        top: 110vh !important;
-    }
-
-    .myProjects {
-        top: 180vh !important;
-    }
-
-    .websiteFooter {
-        width: 100%;
-        position: absolute;
-        top: 300vh;
-
-    }
 }
 
 
@@ -395,7 +326,6 @@
 
     .paragraphAboutMe {
         width: 80vw;
-
     }
 
     .mainFooter {
@@ -423,12 +353,10 @@
         font-size: 1.6em;
         padding-right: 0px;
         width: 95vw !important;
-        /* background-color: aqua; */
     }
 
     .nameBox {
         text-align: center;
-
         width: max-content;
         font-size: 1.8em !important;
     }
@@ -441,21 +369,13 @@
         width: 92vw !important;
     }
 
-
-    .aboutMe {
-
-        top: 150vh !important;
-    }
-
     .AboutMeHeading {
         margin-bottom: 10px;
     }
 
     .aboutMeContainer {
-
         flex-direction: row;
         column-gap: 15px;
-        /* row-gap: 30px; */
     }
 
     .paragraphAboutMe {
@@ -467,33 +387,9 @@
         width: 180px !important;
         border: 5px solid transparent;
         border-radius: 5px !important;
-        filter: grayscale();
+        filter: grayscale(95%);
     }
 
-
-
-
-
-
-
-
-
-
-    .myProjects {
-        position: absolute;
-        top: 300vh !important;
-        width: 100vw;
-        height: 100vh !important;
-    }
-
-    .projectRows {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 20px !important;
-        row-gap: 30px !important;
-        flex-wrap: wrap;
-    }
 
     .projectBoxes {
         width: 250px;
@@ -541,7 +437,6 @@
     .projectBoxFooter {
         color: #f7f7f7;
         position: absolute;
-        ;
         font-size: 62%;
         font-weight: 500;
         bottom: 30px !important;
@@ -549,20 +444,10 @@
         flex-wrap: wrap;
         column-gap: 10px !important;
     }
-
-
-
-
-
-    .websiteFooter {
-        width: 100%;
-        position: absolute;
-        top: 600vh;
-
-    }
+    
 
     .mainFooter {
-        width: 100vw;
+        
         height: 20vh;
         flex-direction: row;
         column-gap: 12vw;
@@ -625,21 +510,13 @@
         width: 92vw !important;
     }
 
-
-    .aboutMe {
-
-        top: 150vh !important;
-    }
-
     .AboutMeHeading {
         margin-bottom: 10px;
     }
 
     .aboutMeContainer {
-
         flex-direction: row;
-        column-gap: 15px;
-        /* row-gap: 30px; */
+        column-gap: 15px;/
     }
 
     .paragraphAboutMe {
@@ -655,28 +532,9 @@
     }
 
 
-
-
-
-
-
-
-
-
     .myProjects {
-        position: absolute;
-        top: 300vh !important;
         width: 100vw;
         height: 100vh !important;
-    }
-
-    .projectRows {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 20px !important;
-        row-gap: 30px !important;
-        flex-wrap: wrap;
     }
 
     .projectBoxes {
@@ -725,7 +583,6 @@
     .projectBoxFooter {
         color: #f7f7f7;
         position: absolute;
-        ;
         font-size: 62%;
         font-weight: 500;
         bottom: 30px !important;
@@ -734,15 +591,8 @@
         column-gap: 10px !important;
     }
 
-
-
-
-
     .websiteFooter {
         width: 100%;
-        position: absolute;
-        top: 580vh;
-
     }
 
     .mainFooter {
@@ -751,9 +601,6 @@
         flex-direction: row;
         column-gap: 12vw;
     }
-
-
-
 }
 
 /* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
@@ -808,7 +655,7 @@
     .projectBoxFooter {
         color: #f7f7f7;
         position: absolute;
-        ;
+       
         font-size: 62%;
         font-weight: 500;
         bottom: 30px !important;
