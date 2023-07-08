@@ -117,6 +117,8 @@ function LightAndDarkMode() {
       formElements[tempI].style.backgroundColor = "rgb(53 53 53)";
     }
     mainFooter.style.backgroundColor = "rgb(53 53 53)";
+
+    
   } else if (DarkMode == 2) {
     for (let tempI = 0; tempI < modeName.length; tempI++) {
       modeName[tempI].innerHTML = "Pink";
@@ -249,8 +251,3 @@ function LightAndDarkMode() {
 
 // --------------------------Light--Mode---&&-----Dark--Mode-------------------------//
 
-// ------------------------CALLING--THE--FUNCTION--FOR__RANDON__COLOR__MODE_-----------------
-// ------------------------CALLING--THE--FUNCTION--FOR__RANDON__COLOR__MODE_-----------------
-LightAndDarkMode();
-// ------------------------CALLING--THE--FUNCTION--FOR__RANDON__COLOR__MODE_-----------------
-// ------------------------CALLING--THE--FUNCTION--FOR__RANDON__COLOR__MODE_-----------------

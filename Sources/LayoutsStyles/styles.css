@@ -8,7 +8,7 @@
 
 body {
     position: relative;
-    background-color: #0a192f ;
+    background-color: #0a192f;
     width: 100vw !important;
     overflow-x: hidden !important;
 }
@@ -87,7 +87,7 @@ body {
 .briefAboutMe {
     font-size: large;
     font-weight: 100;
-    color: aliceblue ;
+    color: aliceblue;
     padding: 30px 30px;
     text-shadow: none;
     width: 80vw !important;
@@ -120,6 +120,7 @@ body {
     transition: 1s ease;
     border-radius: 5px;
 }
+
 .nameBox:is(:hover)::before {
     transform: translateX(-1%) !important;
     opacity: 0.5;
@@ -200,15 +201,17 @@ body {
     opacity: 1 !important;
     z-index: 2 !important;
 }
-.navBarBlock div ul li a{
-  
+
+.navBarBlock div ul li a {
+
     z-index: 5 !important;
 }
 
 .creator {
-    padding-bottom: 50px ;
+    padding-bottom: 50px;
     font-size: 1em !important;
 }
+
 .creator:hover {
     font-size: 1.2em !important;
 }
@@ -226,12 +229,13 @@ body {
     justify-content: center;
     column-gap: 5vw;
     padding-right: 50px !important;
-    
+
 }
 
 .navAllItems {
     margin-left: 30px !important;
 }
+
 .navItems {
     list-style: none;
     display: flex;
@@ -239,45 +243,53 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
 .navItems a {
-    
+
     color: rgb(132, 134, 135);
     text-decoration: none;
 }
+
 .navItems a:hover {
     color: aliceblue;
 }
 
-.navItemsUnderlineHome{
+.navItemsUnderlineHome {
     width: 4px;
     height: 4px;
     border-radius: 2px !important;
     background-color: aliceblue;
 }
-.navItemsUnderline{
+
+.navItemsUnderline {
     width: 4px;
     height: 4px;
     border-radius: 2px !important;
     background-color: transparent;
 }
 
-.darkModeNAVBarItemsHoverClass:hover{
+.upperNavItemsForClassChange:hover {
+    color: aliceblue !important;
+}
+.darkModeNAVBarItemsHoverClass:hover {
     color: black !important;
 }
 
-.navItems a:hover~.navItemsUnderlineHome{
+.navItems a:hover~.navItemsUnderlineHome {
     animation: underlineAnimaate .52s forwards;
 }
-.navItems a:hover~.navItemsUnderline{
+
+.navItems a:hover~.navItemsUnderline {
     animation: underlineAnimaate .52s forwards;
 }
+
 @keyframes underlineAnimaate {
     to {
         margin-top: 8px;
-         width: 100%;
-         height: 3px;
-         background-color: rgb(116, 116, 214);
-     }
+        width: 100%;
+        height: 3px;
+        background-color: rgb(116, 116, 214);
+    }
 }
 
 .modeButtonOnNAV {
@@ -294,17 +306,20 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
 .modeButtonOnNAV:hover {
     color: aliceblue;
     background-color: #1a2e4c !important;
 }
+
 .darkModeIcon {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 5px;
 }
-.moonDark{
+
+.moonDark {
     width: 0;
     visibility: hidden;
 }
@@ -315,18 +330,20 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
 .mySocialProfilesInsideNav a {
     color: aliceblue;
 }
 
 .InsideNAV-DLMode {
-    
+
     width: 100%;
-    
+
     display: flex;
     place-content: center;
 }
-.InsideNAV-DLMode button{
+
+.InsideNAV-DLMode button {
     cursor: pointer;
     position: absolute;
     bottom: 80px;
@@ -353,6 +370,7 @@ body {
     border-radius: 50%;
     color: aliceblue !important;
 }
+
 .contactsIcons a svg:hover {
     width: 120%;
     height: 120%;
@@ -573,7 +591,8 @@ body {
     color: aliceblue;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: aliceblue;
 }
 

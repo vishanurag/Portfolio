@@ -33,4 +33,6 @@ In-order to use my portfolio in your local machine, you need to follow these ste
 
 - Just install & run the `xampp` in your machine.
 - Put this `Portfolio` folder inside the `htdocs` folder in `xampp` folder.
+- Go to `phpMyAdmin` and create a database named `temp`.
+- Also import this `anurag_projects_list.sql` in the database named `temp`.
 - And yea you are good to go. Now, open your browser and type this URL `localhost/Portfolio/`.  
