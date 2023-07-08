@@ -4,6 +4,7 @@
     .creator {
         font-size: 110% !important;
     }
+
     .responsiveNavReplaced {
         display: none !important;
     }
@@ -75,9 +76,10 @@
         font-size: 80% !important;
     }
 
-    .navMenuWideDisplay{
+    .navMenuWideDisplay {
         display: none;
     }
+
     .navBarToggler {
         top: 2vh !important;
         width: 6vh !important;
@@ -141,9 +143,8 @@
 
     .nameBox {
         text-align: center;
-
         width: max-content;
-        font-size: 1.15em !important;
+        font-size: 1.5em !important;
     }
 
     @keyframes textAnimate {
@@ -339,7 +340,6 @@
 
 
 
-
 /* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
 
 
@@ -360,9 +360,6 @@
         width: max-content;
         font-size: 1.8em !important;
     }
-
-
-
     .briefAboutMe {
         font-size: 65%;
         font-weight: 300;
@@ -444,10 +441,10 @@
         flex-wrap: wrap;
         column-gap: 10px !important;
     }
-    
+
 
     .mainFooter {
-        
+
         height: 20vh;
         flex-direction: row;
         column-gap: 12vw;
@@ -481,10 +478,8 @@
         align-items: center;
         width: 100vw;
         text-align: center;
-
         top: 30vh !important;
         text-align: center;
-
     }
 
     .whatIDO {
@@ -492,7 +487,6 @@
         font-size: 1.6em;
         padding-right: 0px;
         width: 95vw !important;
-        /* background-color: aqua; */
     }
 
     .nameBox {
@@ -655,7 +649,7 @@
     .projectBoxFooter {
         color: #f7f7f7;
         position: absolute;
-       
+
         font-size: 62%;
         font-weight: 500;
         bottom: 30px !important;

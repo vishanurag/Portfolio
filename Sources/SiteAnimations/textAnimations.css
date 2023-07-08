@@ -11,7 +11,7 @@
 
 @keyframes blink {
     to {
-        border-right: 5px solid #f40202;
+        border-right: 3px solid #f40202;
     }
 }
 
