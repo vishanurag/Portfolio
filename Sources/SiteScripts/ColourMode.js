@@ -106,7 +106,7 @@ function LightAndDarkMode() {
       projectBoxes[tempI].style.backgroundColor = "rgb(53 53 53)";
     }
 
-    console.log("Light Mode...1");
+    // console.log("Light Mode...1");
     DarkMode = 2;
     for (let tempI = 0; tempI < iconsMainFront.length; tempI++) {
       iconsMainFront[tempI].style.color = "grey";
@@ -244,7 +244,7 @@ function LightAndDarkMode() {
     }
     simpleVerticalLine.style.backgroundColor = "aliceblue";
 
-    console.log("Dark Mode...2");
+    // console.log("Dark Mode...2");
     DarkMode = 1;
   }
 }
