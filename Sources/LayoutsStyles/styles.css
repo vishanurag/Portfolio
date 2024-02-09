@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.18s linear !important;
+}
+
+body {
+    position: relative;
+    background-color: #0a192f;
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+.partationSlab {
+    height: 100px;
+}
+
+
+/* ----------------------------------------MAIN--CONTENT--STARTS------------------------------------- */
+
+.mainContent {
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    align-items: center;
+}
+
+.arrowRight {
+    padding-left: 10px;
+    width: max-content;
+    opacity: 1;
+}
+
+.helloIAM {
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    width: 100vw !important;
+    top: 20vh;
+    text-align: center;
+    font-size: 1em;
+    color: #59c2e6;
+    font-family: "Fira Code";
+    animation: show 2s 4.5s forwards;
+}
+
+.subHelloIAM {
+    text-align: left;
+    margin-left: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.iconArrowDown {
+    opacity: 0;
+}
+
+.navBarToggler {
+    right: 30px !important;
+    position: absolute;
+    top: 20px !important;
+    visibility: hidden;
+}
+
+.whatIDO {
+    font-size: 200%;
+    text-shadow: -2px 5px 0px #233554, -2px 5px 5px aliceblue;
+    font-weight: bold;
+    color: #8892b0;
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    top: 55vh;
+    text-align: left;
+    padding-left: 40px;
+    animation: show 1s 4.5s forwards;
+    display: grid !important;
+    place-content: center !important;
+}
+
+.briefAboutMe {
+    font-size: large;
+    font-weight: 100;
+    color: aliceblue;
+    padding: 30px 30px;
+    text-shadow: none;
+    width: 80vw !important;
+    text-align: left;
+}
+
+.nameBox {
+    color: aliceblue;
+    font-weight: 700;
+    border-right: 1px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    animation: textAnimate .31s infinite, blink .3s 4s forwards infinite;
+}
+
+.nameBox::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.207);
+    position: absolute;
+    z-index: -2 !important;
+    transform: translateX(-150%);
+    transition: 1s ease;
+    border-radius: 5px;
+}
+
+.nameBox:is(:hover)::before {
+    transform: translateX(-1%) !important;
+    opacity: 0.5;
+}
+
+.myResumeButtonLink {
+    text-decoration: none;
+}
+
+.myResumeButton {
+    background-color: transparent;
+    font-size: medium;
+    padding: 10px !important;
+    border: 1px solid #377997;
+    border-radius: 5px !important;
+    color: #8892b0;
+    text-shadow: none !important;
+}
+
+.myResumeButton:hover,
+.formSubmitButton:hover {
+    background-color: #1a2e4c;
+}
+
+
+/* ---------------------------------------GREETINGS---AREA-------------------------------- */
+
+.greetingsBox {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: #382c57;
+    background-image: linear-gradient(transparent, #0a192f, black);
+    opacity: 0.9;
+    z-index: 1;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    animation: scrollUp 0.8s 4s forwards;
+}
+
+.greetingsDiffLanguages {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 2.5em;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+
+.iAM {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(197, 200, 203);
+
+    margin-top: 5vh;
+
+}
+
+.anurag {
+    color: #c9c7cd;
+    font-family: 'Lobster', cursive;
+    font-size: 2.1em;
+    animation: anuragAnimateHero 4s 0.5s forwards;
+}
+
+/* ---------------------------------------GREETINGS---AREA-------------------------------- */
+
+
+.mainNavigationBar {
+    opacity: .1;
+    animation: hideNavBar 5s 0s forwards;
+}
+
+
+.navBarBlock {
+    background-color: #1a2e4c !important;
+    background-image: linear-gradient(rgb(99, 75, 157), rgb(126, 129, 177));
+    opacity: 1 !important;
+    z-index: 2 !important;
+}
+
+.navBarBlock div ul li a {
+
+    z-index: 5 !important;
+}
+
+.creator {
+    padding-bottom: 50px;
+    font-size: 1em !important;
+}
+
+.creator:hover {
+    font-size: 1.2em !important;
+}
+
+.navCloseButton {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    background-color: #c9c7cd;
+}
+
+.navMenuhow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5vw;
+    padding-right: 50px !important;
+
+}
+
+.navAllItems {
+    margin-left: 30px !important;
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navItems a {
+
+    color: rgb(132, 134, 135);
+    text-decoration: none;
+}
+
+.navItems a:hover {
+    color: aliceblue;
+}
+
+.navItemsUnderlineHome {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px !important;
+    background-color: aliceblue;
+}
+
+.navItemsUnderline {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px !important;
+    background-color: transparent;
+}
+
+.upperNavItemsForClassChange:hover {
+    color: aliceblue !important;
+}
+.darkModeNAVBarItemsHoverClass:hover {
+    color: black !important;
+}
+
+.navItems a:hover~.navItemsUnderlineHome {
+    animation: underlineAnimaate .52s forwards;
+}
+
+.navItems a:hover~.navItemsUnderline {
+    animation: underlineAnimaate .52s forwards;
+}
+
+@keyframes underlineAnimaate {
+    to {
+        margin-top: 8px;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(116, 116, 214);
+    }
+}
+
+.modeButtonOnNAV {
+    width: 80px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 8px;
+    border: 1px solid rgb(162, 110, 218);
+    border-radius: 5px;
+    outline: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modeButtonOnNAV:hover {
+    color: aliceblue;
+    background-color: #1a2e4c !important;
+}
+
+.darkModeIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.moonDark {
+    width: 0;
+    visibility: hidden;
+}
+
+
+.mySocialProfilesInsideNav {
+    padding: 20px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mySocialProfilesInsideNav a {
+    color: aliceblue;
+}
+
+.InsideNAV-DLMode {
+
+    width: 100%;
+
+    display: flex;
+    place-content: center;
+}
+
+.InsideNAV-DLMode button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 80px;
+    align-self: center;
+}
+
+.contactsIcons {
+    opacity: .1;
+    position: fixed;
+    bottom: 0px;
+    left: 50px !important;
+    animation: hideNavBar 5s 0s forwards;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px !important;
+}
+
+.contactsIcons a {
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    color: aliceblue !important;
+}
+
+.contactsIcons a svg:hover {
+    width: 120%;
+    height: 120%;
+}
+
+.simpleVerticalLine {
+    height: 200px;
+    width: 2px;
+    background-color: aliceblue;
+}
+
+
+/* ----------------------------------------MAIN--CONTENT--ENDS------------------------------------- */
+
+
+/* ----------------------------ABOUT--ME--(ANURAG)---SECTION------------------------------------- */
+
+.aboutMe {
+    top: 100vw !important;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AboutMeHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: aliceblue;
+    font-weight: bold;
+    column-gap: 20px !important;
+    margin: 50px;
+}
+
+.aboutMeMainHeading {
+    width: max-content;
+}
+
+.lineOfHeading {
+    background-color: aliceblue;
+    width: 20vw;
+    height: 1px;
+}
+
+.aboutMeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.paragraphAboutMe {
+    width: 30vw;
+    color: aliceblue;
+}
+
+.aboutMeList .aboutMePoints {
+    margin-top: 15px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.myPhotoCover {
+    border: 1px solid aliceblue;
+    border-radius: 5px !important;
+}
+
+.myPhotoCover:hover {
+    border-color: #377997;
+}
+
+.myPhoto {
+    width: 200px;
+    border: 5px solid transparent;
+    border-radius: 5px !important;
+    filter: grayscale();
+}
+
+.myPhoto:hover {
+    animation: photoAnimate .21s forwards;
+    filter: none;
+}
+
+.myPhoto:active {
+    animation: photoActive 0.2s forwards;
+}
+
+/* ----------------------------ABOUT--ME--(ANURAG)---SECTION------------------------------------- */
+
+
+/* ----------------------------PROJECTS---SECTION------------------------------------- */
+
+.myProjects {
+    width: 100vw;
+}
+
+
+.projectsContainer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 50px !important;
+    row-gap: 50px !important;
+
+}
+
+.projectBoxes {
+    color: aliceblue;
+    width: 300px;
+    height: 300px;
+    background-color: #233554;
+    border: 2px solid #272729;
+    border-radius: 8px;
+    row-gap: 15px !important;
+    padding-left: 10px !important;
+    position: relative;
+}
+
+.projectBoxes:hover {
+    animation: projectBoxAnimate .1s forwards;
+}
+
+
+.projectNavBar {
+    margin-top: 15px;
+    margin-left: -10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px !important;
+    column-gap: 160px;
+    padding-bottom: 20px !important;
+}
+
+.projectLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px !important;
+}
+
+.liveLinkInsideHeading svg:hover,
+.githubInsideHeading svg:hover,
+.youtubeInsideHeading svg:hover {
+    width: 110% !important;
+    height: 110% !important;
+}
+
+.liveLinkInsideHeading,
+.githubInsideHeading {
+    color: aliceblue;
+}
+
+.projectLinkInsideBox {
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.projectBoxMain {
+    font-size: 90%;
+    color: #e1e3e9;
+    width: 280px !important;
+    margin-top: 20px !important;
+}
+
+.projectBoxFooter {
+    color: #f7f7f7;
+    position: absolute;
+    font-size: 75%;
+    font-weight: 500;
+    bottom: 30px !important;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px !important;
+    word-spacing: 5px;
+}
+
+/* ----------------------------PROJECTS---SECTION------------------------------------- */
+
+
+/* ----------------------------FOOTER---SECTION------------------------------------- */
+
+.websiteFooterForm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formHeadingMain {
+    text-align: center;
+    color: #5d7aab;
+
+}
+
+.formOfFooterSubHeading {
+    color: #c9c7cd;
+    width: 85vw;
+}
+
+.footerSubHeadingHighlight {
+    color: rgb(4, 125, 230);
+}
+
+.formElements {
+    background-color: #1a2e4c;
+    border: none;
+    width: 60vw;
+    margin: 10px;
+    outline: none;
+    padding: 5px !important;
+    border: 2px solid transparent;
+    border-radius: 15px !important;
+    color: aliceblue;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: aliceblue;
+}
+
+.formElements:hover {
+    border-color: #377997;
+}
+
+.formSubmitButton {
+    background-color: transparent;
+    border: 1px solid #377997;
+    border-radius: 5px;
+    padding: 5px !important;
+    color: #8892b0;
+}
+
+.mainFooter {
+    height: 50px;
+    background-color: #233554;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20vw;
+}
+
+.socialHandles span a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.OrSign {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.goUp {
+    color: aliceblue;
+}
+
+/* ----------------------------FOOTER---SECTION------------------------------------- */

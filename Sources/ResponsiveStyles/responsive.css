@@ -1,0 +1,620 @@
+/* -----------------LARGE---DISPLAYS---LAPTOPS---------------- */
+
+@media only screen and (min-width: 1001px) {
+    .creator {
+        font-size: 110% !important;
+    }
+
+    .responsiveNavReplaced {
+        display: none !important;
+    }
+
+    .subHelloIAM {
+        margin-left: 12vw !important;
+    }
+
+    .animationBox {
+        position: absolute;
+        display: flex;
+        left: 0;
+        padding-left: 12vw;
+        align-items: center;
+        width: 100vw;
+        top: 28vh !important;
+        text-align: center;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 4.5em !important;
+    }
+
+    .whatIDO {
+        top: 50vh;
+    }
+
+    .briefAboutMe {
+        font-size: 70% !important;
+        font-weight: 500;
+    }
+
+
+    .aboutMe {
+        top: 120vh !important;
+    }
+
+    .myProjects {
+        top: 250vh !important;
+    }
+
+    .websiteFooter {
+        top: 400vh;
+        width: 100%;
+    }
+}
+
+/* -----------------LARGE---DISPLAYS---LAPTOPS---------------- */
+
+
+
+
+/* -----------------LARGE---DISPLAYS---TABLETS---------------- */
+
+@media only screen and (max-width: 1000px) {
+    .creator {
+        font-size: 80% !important;
+    }
+
+    .navMenuWideDisplay {
+        display: none;
+    }
+
+    .navBarToggler {
+        top: 2vh !important;
+        width: 6vh !important;
+        height: 6vh !important;
+        display: grid !important;
+        place-content: center !important;
+        visibility: visible;
+    }
+
+    .navBarToggler span {
+        width: 4vh !important;
+        height: 4vh !important;
+    }
+
+    .contactsIcons {
+        display: none;
+    }
+
+    .iconArrowDown {
+        opacity: 1;
+        margin-left: 5px !important;
+    }
+
+    .arrowRight {
+        display: none;
+    }
+
+    .subHelloIAM {
+        margin-left: 10vw !important;
+    }
+}
+
+/* -----------------LARGE---DISPLAYS---TABLETS---------------- */
+
+
+
+/* -----------------MEDIUM---DISPLAYS---MOBILES---------------- */
+
+@media only screen and (max-width: 400px) {
+
+    .helloIAM {
+        top: 15vh !important;
+        text-align: left !important;
+    }
+
+    .animationBox {
+        position: absolute;
+        display: grid;
+        left: 0;
+        place-items: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        top: 22vh !important;
+        text-align: center;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 1.5em !important;
+    }
+
+    @keyframes textAnimate {
+        to {
+            font-size: 1.2em !important;
+            text-shadow: 1px 2px rgb(75, 202, 20);
+        }
+    }
+
+    .whatIDO {
+        top: 30vh;
+        font-size: 1.2em;
+        padding-right: 20px;
+    }
+
+    .briefAboutMe {
+        font-size: 85%;
+        font-weight: 300;
+    }
+}
+
+/* -----------------MEDIUM---DISPLAYS---MOBILES---------------- */
+
+
+
+
+/* -----------------LARGE---DISPLAYS---MOBILES---------------- */
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    .helloIAM {
+        top: 15vh !important;
+        text-align: left !important;
+
+    }
+
+    .animationBox {
+        position: absolute;
+        display: grid;
+        left: 0;
+        place-items: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        top: 22vh !important;
+        text-align: center;
+
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 1.6em !important;
+    }
+
+    @keyframes textAnimate {
+        to {
+            font-size: 1.65em !important;
+            text-shadow: 1px 2px rgb(75, 202, 20);
+        }
+    }
+
+    .whatIDO {
+        top: 35vh;
+        font-size: 1.5em;
+        padding-right: 20px;
+    }
+
+    .briefAboutMe {
+        font-size: 85%;
+        font-weight: 300;
+    }
+
+}
+
+/* -----------------LARGE---DISPLAYS---MOBILES---------------- */
+
+
+
+/* -----------------MEDIUM---DISPLAYS---TABLETS---------------- */
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    .creator {
+        font-size: 95% !important;
+    }
+
+    .animationBox {
+        position: absolute;
+        display: grid;
+        left: 0;
+        place-items: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        top: 30vh !important;
+        text-align: center;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 2.1em !important;
+    }
+
+    .whatIDO {
+        top: 45vh;
+        font-size: 2em;
+        padding-right: 20px;
+    }
+
+    .briefAboutMe {
+        font-size: 75%;
+        font-weight: 300;
+    }
+}
+
+/* -----------------MEDIUM---DISPLAYS---TABLETS---------------- */
+
+
+
+
+/* ------------------------------EXTRA----QUERIES------------------------------------ */
+
+
+@media only screen and (min-height: 1000px) and (min-width: 801px) and (max-width: 1000px) {
+    .creator {
+        font-size: 95% !important;
+    }
+
+    .animationBox {
+        position: absolute;
+        display: grid;
+        left: 0;
+        place-items: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        top: 30vh !important;
+        text-align: center;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 2.1em !important;
+    }
+
+    .whatIDO {
+        top: 45vh;
+        font-size: 2em;
+        padding-right: 20px;
+    }
+
+    .briefAboutMe {
+        font-size: 75%;
+        font-weight: 300;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .aboutMeContainer {
+        margin-top: 5px;
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
+    .paragraphAboutMe {
+        width: 80vw;
+    }
+
+    .mainFooter {
+        width: 100vw;
+        height: 20vh;
+        flex-direction: column;
+    }
+}
+
+/* ------------------------------EXTRA----QUERIES------------------------------------ */
+
+
+
+/* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
+
+
+@media (min-width: 500px) and (max-width: 1000px) and (max-height: 380px) {
+    .creator {
+        font-size: 75% !important;
+    }
+
+    .whatIDO {
+        top: 45vh;
+        font-size: 1.6em;
+        padding-right: 0px;
+        width: 95vw !important;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 1.8em !important;
+    }
+
+    .briefAboutMe {
+        font-size: 65%;
+        font-weight: 300;
+        width: 92vw !important;
+    }
+
+    .AboutMeHeading {
+        margin-bottom: 10px;
+    }
+
+    .aboutMeContainer {
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+    .paragraphAboutMe {
+        width: 50vw;
+        font-size: 80%;
+    }
+
+    .myPhoto {
+        width: 180px !important;
+        border: 5px solid transparent;
+        border-radius: 5px !important;
+        filter: grayscale(95%);
+    }
+
+
+    .projectBoxes {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .projectNavBar {
+        margin-top: 10px;
+        margin-left: 10px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px !important;
+        column-gap: 120px;
+        padding-bottom: 15px !important;
+    }
+
+    .projectLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px !important;
+    }
+
+    .liveLinkInsideHeading,
+    .githubInsideHeading {
+        color: aliceblue;
+    }
+
+    .projectLinkInsideBox {
+        color: #fff;
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: none;
+    }
+
+    .projectBoxMain {
+        font-size: 70%;
+        color: #e1e3e9;
+        width: 230px !important;
+        margin-top: 10px !important;
+    }
+
+    .projectBoxFooter {
+        color: #f7f7f7;
+        position: absolute;
+        font-size: 62%;
+        font-weight: 500;
+        bottom: 30px !important;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px !important;
+    }
+
+    .mainFooter {
+        height: 20vh;
+        flex-direction: row;
+        column-gap: 12vw;
+    }
+}
+
+
+/* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
+
+
+
+/* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
+
+
+@media (min-width: 500px) and (max-width: 1000px) and (max-height: 500px) and (min-height: 381px) {
+    .creator {
+        font-size: 75% !important;
+    }
+
+    .animationBox {
+        position: absolute;
+        display: grid;
+        left: 0;
+        place-items: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        top: 30vh !important;
+        text-align: center;
+    }
+
+    .whatIDO {
+        top: 45vh;
+        font-size: 1.6em;
+        padding-right: 0px;
+        width: 95vw !important;
+    }
+
+    .nameBox {
+        text-align: center;
+        width: max-content;
+        font-size: 1.8em !important;
+    }
+
+    .briefAboutMe {
+        font-size: 65%;
+        font-weight: 300;
+        width: 92vw !important;
+    }
+
+    .AboutMeHeading {
+        margin-bottom: 10px;
+    }
+
+    .aboutMeContainer {
+        flex-direction: row;
+        column-gap: 15px;/
+    }
+
+    .paragraphAboutMe {
+        width: 50vw;
+        font-size: 80%;
+    }
+
+    .myPhoto {
+        width: 180px !important;
+        border: 5px solid transparent;
+        border-radius: 5px !important;
+        filter: grayscale();
+    }
+
+    .myProjects {
+        width: 100vw;
+        height: 100vh !important;
+    }
+
+    .projectBoxes {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projectNavBar {
+        margin-top: 10px;
+        margin-left: 10px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px !important;
+        column-gap: 120px;
+        padding-bottom: 15px !important;
+    }
+
+    .projectLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px !important;
+    }
+
+    .liveLinkInsideHeading,
+    .githubInsideHeading {
+        color: aliceblue;
+    }
+
+    .projectLinkInsideBox {
+        color: #fff;
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: none;
+    }
+
+    .projectBoxMain {
+        font-size: 70%;
+        color: #e1e3e9;
+        width: 230px !important;
+        margin-top: 10px !important;
+    }
+
+    .projectBoxFooter {
+        color: #f7f7f7;
+        position: absolute;
+        font-size: 62%;
+        font-weight: 500;
+        bottom: 30px !important;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px !important;
+    }
+
+    .websiteFooter {
+        width: 100%;
+    }
+
+    .mainFooter {
+        width: 100vw;
+        height: 20vh;
+        flex-direction: row;
+        column-gap: 12vw;
+    }
+}
+
+/* ----------------------------For-Responsiveness--ROTATED--DISPLAYES----------------------------------- */
+
+
+/* -------------------------------For---SAMSUNG-GALAXY--Z-FOLD--------------------------- */
+
+@media (max-width: 300px) {
+    .projectBoxes {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projectNavBar {
+        margin-top: 10px;
+        margin-left: 10px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px !important;
+        column-gap: 120px;
+        padding-bottom: 15px !important;
+    }
+
+    .projectLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px !important;
+    }
+
+    .liveLinkInsideHeading,
+    .githubInsideHeading {
+        color: aliceblue;
+    }
+
+    .projectLinkInsideBox {
+        color: #fff;
+        font-weight: bold;
+        font-size: larger;
+        text-decoration: none;
+    }
+
+    .projectBoxMain {
+        font-size: 70%;
+        color: #e1e3e9;
+        width: 230px !important;
+        margin-top: 10px !important;
+    }
+
+    .projectBoxFooter {
+        color: #f7f7f7;
+        position: absolute;
+        font-size: 62%;
+        font-weight: 500;
+        bottom: 30px !important;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10px !important;
+    }
+}
+
+/* -------------------------------For---SAMSUNG-GALAXY--Z-FOLD--------------------------- */
