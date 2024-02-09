@@ -48,3 +48,8 @@ let showprojects = (() => {
 });
 
 showprojects();
+
+// This function is written for fetching projects again for prevention of side effects in AJAX Requests.
+setTimeout(() => {
+    showprojects();    
+}, 2000);
