@@ -5,7 +5,7 @@
 
 ## _This is my personal portfolio web project._
 
-[![Author](https://ashstudy.000webhostapp.com/anurag/Assets/icons/faviconA.ico)](https://vcma.rf.gd/Portfolio) Created by: [Anurag Vishwakarma](https://github.com/vishanurag)
+[![Author](https://vishanurag.github.io/favicon.ico)](https://vcma.rf.gd/Portfolio) Created by: [Anurag Vishwakarma](https://github.com/vishanurag)
 
 
 
@@ -25,6 +25,7 @@ I have used these following tech for building the cityWebCast WebApp:
 - [Javascript]() - Used JS to make things functional.
 - [Bootstrap]() - great UI boilerplate for modern web apps.
 - [AJAX]() - Used AJAX for getting the projects datails.
+- [MySQL DB]() - Used MySQL database for storing the projects datails.
 
 
 
